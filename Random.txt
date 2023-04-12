@@ -1,0 +1,19 @@
+
+
+
+#cp ../../shared/NEON_*/*/*csv original*csv
+#how to make a copy of each these files with a new name
+#give it an additional extension not a new prefix
+cp../../shared/NEON_*/*/*csv | mv orginial*csv new*csv
+
+
+mkdir NEON_csv_copies
+
+cp ../../shared/NEON_*/*/*csv NEON_csv_copies
+for filename in  NEON_csv_copies
+do
+
+	echo $filename
+	#echo cp $filename NEON_csv_copies 
+	echo mv $filename ${filename}.txt
+done
