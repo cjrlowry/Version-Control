@@ -1,6 +1,4 @@
 
-#This script copies csv files from NEON folder and renames them
-#Usage: bash Neon.sh
 
 #cp ../../shared/NEON_*/*/*csv original*csv
 #how to make a copy of each these files with a new name
